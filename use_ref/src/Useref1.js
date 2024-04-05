@@ -28,10 +28,10 @@ function Useref1() {
 
             <h2>{`${Name},${City},${Mobile},${Email}`}</h2>
             <form onSubmit={handlesubmit}>
-                <input type="text" onChange={(e) => setName(e.target.value)} name="Name" ref={inputNameRef} />
-                <input type="text" onChange={(e) => setCity(e.target.value)} name="City" ref={inputCityRef} />
-                <input type="text" onChange={(e) => setMobile(e.target.value)} name="Mobile" ref={inputMobileRef} />
-                <input type="text" onChange={(e) => setEmail(e.target.value)} name="Email" ref={inputEmailRef} />
+                <input type="text" onChange={(e) => setName(e.target.value)} name="Name" ref={inputNameRef} /><br/><br/>
+                <input type="text" onChange={(e) => setCity(e.target.value)} name="City" ref={inputCityRef} /><br/><br/>
+                <input type="text" onChange={(e) => setMobile(e.target.value)} name="Mobile" ref={inputMobileRef} /><br/><br/>
+                <input type="text" onChange={(e) => setEmail(e.target.value)} name="Email" ref={inputEmailRef} /><br/><br/>
                 <button type="submit" onClick={click}>submit</button>
             </form>
 
