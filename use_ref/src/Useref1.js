@@ -8,7 +8,7 @@ function Useref1() {
     const inputEmailRef = useRef("");
 
     const [Name, setName] = useState("krupali");
-    const [City, setCity] = useState("akbari");
+    const [City, setCity] = useState("rajkot");
     const [Mobile, setMobile] = useState("9874562130");
     const [Email, setEmail] = useState("k@g.com");
 
